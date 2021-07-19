@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: cluster-config
   source:
-    path: components/configs/oauth/overlays/google-with-matrix
+    path: components/configs/oauth/overlays/matrix-template
     repoURL: https://github.com/VinayBhalerao/cluster-config.git
     targetRevision: master
   syncPolicy:
