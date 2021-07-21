@@ -11,4 +11,4 @@ resources:
 - ../../../../../../../components/argocd/apps/config-prometheus-user-app/base
 #- ../../../../../../../components/argocd/apps/config-container-security/base
 - ../../../../../../../components/argocd/apps/config-web-terminal-operator/base
-#- ../../../../../../../components/argocd/apps/config-pipeline-operator/base
+- ../../../../../../../components/argocd/apps/config-pipeline-operator/base
