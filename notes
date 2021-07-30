@@ -1,0 +1,2 @@
+- Copy the `sealed-secrets-secret.yaml` directory cluster-config/bootstrap/base
+-
