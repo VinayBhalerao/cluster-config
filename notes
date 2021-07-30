@@ -1,2 +1,14 @@
+** Gitops operator setup **
+- Install https://github.com/gnunn-gitops/gitops-operator-install
+- Run .setup.sh
+
+** Sealed secrets setup **
+- git clone https://github.com/redhat-canada-gitops/catalog.git
+- oc apply -k catalog/sealed-secrets-operator/overlays/defaul
+- wget https://raw.githubusercontent.com/redhat-canada-gitops/catalog/master/sealed-secrets-operator/scripts/get-sealed-secret-key.sh
+- cd ~/.bitnami
+
+** Base cluster setup **
+- Remember to NOT keep your `sealed-secrets-secret.yaml` in github
 - Copy the `sealed-secrets-secret.yaml` directory cluster-config/bootstrap/base
--
+- ./bootstrap.sh base.cluster
